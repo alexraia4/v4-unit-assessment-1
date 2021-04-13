@@ -72,7 +72,7 @@ function iLove(name, love){
 //////////////////PROBLEM 8////////////////////
 /* Create a copy of the faveColors array called 'colorCopy' using the slice method. */
 
-const faveColors = ['red', 'green', 'black']
+const faveColors = ['red', 'green', 'black'];
 
 //CODE HERE
 let colorCopy = faveColors.slice(0);

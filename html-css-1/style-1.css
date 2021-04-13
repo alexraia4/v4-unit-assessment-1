@@ -1,3 +1,20 @@
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
 header {
     background-color: salmon;
+    padding: 20px;
+}
+
+.headElement {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+#topSection, #bottomSection {
+    border-style: dotted;
+    margin: 1%;
+    padding: 1%
 }
