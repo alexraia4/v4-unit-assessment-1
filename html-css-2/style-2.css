@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: mediumaquamarine;
+    padding: 1%;
+}
+
+.section {
+    border-style: dotted;
+    margin: 1%;
+    padding: 1%;
+}
+
+#squareOne {
+    background-color: purple;
+    border: red;
+    border-style: solid;
+    height: 200px;
+    width: 20%;
+    display: inline-block;
+}
+
+#squareTwo {
+    background-color: blue;
+    display: inline-block;
+    height: 200px;
+    width: 20%;
+}
+
+#squareThree {
+    background-color: rgb(167, 86, 119);
+    height: 200px;
+    width: 20%;
+    display: inline-block;
+}
+
+
+.circular {
+    border-style: solid;
+    border-radius: 100%;
+}
+#circleOne {
+    height: 150px;
+    width:  150px;
+    margin-left: 1%;
+}
+
+#circleTwo {
+    height: 190px;
+    width:  190px;
+}
+
+#circleThree {
+    height: 200px;
+    width:  200px;
+}
