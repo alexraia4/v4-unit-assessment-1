@@ -1,6 +1,7 @@
 body {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 header {
@@ -133,4 +134,16 @@ header {
     height: 50%;
     width: 70%; 
     border-radius: 50%; 
+}
+
+p {
+    font-size: medium;
+    text-align: center;
+}
+
+
+span {
+    box-shadow: 0px;
+    float: inline-end;
+    clear: both;
 }
