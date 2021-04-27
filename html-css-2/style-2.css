@@ -18,7 +18,7 @@ header {
     background-color: purple;
     border: red;
     border-style: solid;
-    height: 200px;
+    height: 100px;
     width: 20%;
     display: inline-block;
 }
@@ -26,8 +26,8 @@ header {
 #squareTwo {
     background-color: blue;
     display: inline-block;
-    height: 200px;
-    width: 20%;
+    height: 100px;
+    width: 10%;
 }
 
 #squareThree {
@@ -46,14 +46,91 @@ header {
     height: 150px;
     width:  150px;
     margin-left: 1%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#eyes {
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    width: 50%;
 }
 
 #circleTwo {
     height: 190px;
     width:  190px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
 
 #circleThree {
     height: 200px;
     width:  200px;
+}
+
+#sectionTwo {
+    height: 400px;
+}
+
+.tanSquare {
+    height: 90%;
+    width: 30%;
+    background-color: tan;
+    border: solid;
+}
+
+.greenCircle {
+    height: 70%;
+    width: 70%;
+    background-color: green;
+    border: solid;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redSquare {
+    height: 60%;
+    width: 70%;
+    background-color: red;
+    border: solid;
+    border-color: black;
+    color: white;
+}
+
+
+#fishText {
+    display: flex;
+    justify-content: center;
+}
+
+#fishText p {
+    margin-top: 0px;
+}
+
+.blueCircle {
+    height: 80%;
+    width: 80%;
+    background-color: blue;
+    border: solid;
+    border-color: black;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#fish {
+    height: 50%;
+    width: 70%; 
+    border-radius: 50%; 
 }
